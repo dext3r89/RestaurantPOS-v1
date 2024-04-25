@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="coffee-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="french-fries-fries-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="burger-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="salad-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cheese-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chicken-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cola-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="milkshake-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="orange-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pancake-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sandwich-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tea-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="water-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LPH-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
